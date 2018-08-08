@@ -7,16 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0210E9B9959CB71F6913BF3870AB2191 /* CURLSessionTaskOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373DFC6E083BCA668E5EE5CDAD59717B /* CURLSessionTaskOperation.swift */; };
+		021F086C16C878408DA1E92C1536749A /* CGroupOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDCFD6C9283F1E83959C49D4767BCB3 /* CGroupOperation.swift */; };
+		09573B07BB905213BDC148FC9428CF49 /* CBlockObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9502889067623CB46E5A80D61B6819B1 /* CBlockObserver.swift */; };
 		107227968B5C8CDF1AFB3010C0DBBF1F /* Pods-Celio_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6E8F95F7741ECB2221BED6B937A61D /* Pods-Celio_Tests-dummy.m */; };
-		15CF041EE579554DAC77458010E7E594 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF7BAAFDB0BF4CE548AAFB267ACAED /* ReplaceMe.swift */; };
+		183E4A06C18C36DDC2766AA47E73FFA7 /* CNetworkObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA6185E871FC74D10389C7CBE248F9 /* CNetworkObserver.swift */; };
+		2237EE02E3C75736B74EB0BAD0F0B2C5 /* NSLock+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05593546372A17D6ABFDBFE9CDA796EF /* NSLock+.swift */; };
+		26B0A3986C4457768B94F430966366E9 /* CBlockOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E2D1F3CB3A3508A0C9C8EC7638EDA1 /* CBlockOperation.swift */; };
+		2767ED284B885BA7C08EA7D4E04BC447 /* Celio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4105B31E52A67969032A99F799E4D33D /* Celio-dummy.m */; };
+		3C47AA4ED80993C16E02F78C1E122687 /* COperationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC6D7680017122B84C639B18C2AECA /* COperationObserver.swift */; };
+		4624F13223D611D9C2F483B4827A4E7E /* COperationCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1C65993F0A47B98EE60CB9F3FCC9E3 /* COperationCondition.swift */; };
+		4A4614E378F43A281287F60CD07E9DB9 /* CExclusivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828C0A0A2FD6ED62C6D59677FD17BCA1 /* CExclusivityController.swift */; };
+		4B83A9BC59FFAA088265DA6DD6374A58 /* Operation+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1597BC359BD715ED170021B8EE954 /* Operation+.swift */; };
+		4EF67538858844193CEDC4AA3D069D9C /* CParseDataOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16D59A772E36E0F2D373F58B73775EE /* CParseDataOperation.swift */; };
 		572C05F582B1BBC09517E74FAB74545C /* Pods-Celio_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EF513980F722AB26E5A81FA6038C041 /* Pods-Celio_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62AE11A42B4362E4093A1790E56FE172 /* CBackgroundObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0723CEB6C8C1A426B9FA73EBD8E283 /* CBackgroundObserver.swift */; };
+		7F0894F75763316709B6CE89FD536234 /* CMutuallyExclusive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F70DAFE2F8B6090CF4C9CF91E3A7E4 /* CMutuallyExclusive.swift */; };
+		8BCB227E102D3DF7FD60516596C5F37C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		910BBBAA35C88BC46E14E3432E63B0D4 /* Celio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6409A69B4DB385686F520D3B10F0059B /* Celio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93479DEB9D43CBD4E7ADDF77E1C050D2 /* COperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F0058FA0A44F5BBFD5AB307675342 /* COperation.swift */; };
+		A5CCD9295EE95518596A1772F0970B28 /* COperationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0DCC40CD97840A21A96B17AC1D5834 /* COperationQueue.swift */; };
 		B525D7C45672A678B035EDE0FFBDDEA4 /* Pods-Celio_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8286E277A6CDC36A339D44AA521F988A /* Pods-Celio_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3B74001C6E9CBF799E138BBD0B262AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C55FDCFBD30FFBC8992B40728B96FEEA /* CReachabilityCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBCF16867A216515A9AA02FC5E286B5 /* CReachabilityCondition.swift */; };
 		C9381159184DA75DEBCA5D3560AB4BA6 /* Pods-Celio_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0AD97617993B4DBC44243FF40EF251 /* Pods-Celio_Example-dummy.m */; };
-		CBE49049043236711AA63871F574FF01 /* Celio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B009AC9307AF89A516205C2159797B19 /* Celio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0BB435EC5FE4559E479C20EE7D6BBA2 /* Celio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08694A9825506EB79FF2AF448B0DEBF7 /* Celio-dummy.m */; };
-		EE8866F4F18FDAF04075582A1098016F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D7A94BA599BD87BA12D814FFC9D83CBA /* CNetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27A627B1C50F61D3B7A75266D9DF0DA /* CNetworkRouter.swift */; };
+		DEB988BA4727AC71603078D7B45AE750 /* COperationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D6E51F0404605609D863EDA0CC35D6 /* COperationError.swift */; };
+		E36D9BB6AA085D54DADD260BAB68088D /* CNetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17CBF21F2B3281FC60C85764235253 /* CNetworkOperation.swift */; };
 		F342FABBED48C0118D8BDD24B139AB66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F94F752FDBA054F38CC2A0A11FCBA431 /* NSError+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05D7B7CDC9A283B0856F3AC2CF4853B /* NSError+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,50 +50,77 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 86928403E46C81F460AEDF7DF15E9D6D;
+			remoteGlobalIDString = 227A922681CC5241963D537C340373E2;
 			remoteInfo = Celio;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02E2D1F3CB3A3508A0C9C8EC7638EDA1 /* CBlockOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBlockOperation.swift; path = Celio/Classes/CBlockOperation.swift; sourceTree = "<group>"; };
 		0552666AB707A74962F1F14684B40042 /* Pods-Celio_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Celio_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		08694A9825506EB79FF2AF448B0DEBF7 /* Celio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Celio-dummy.m"; sourceTree = "<group>"; };
-		228A121DBA2891F17D67E8B7465BCEB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05593546372A17D6ABFDBFE9CDA796EF /* NSLock+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLock+.swift"; path = "Celio/Classes/NSLock+.swift"; sourceTree = "<group>"; };
 		2E0AD97617993B4DBC44243FF40EF251 /* Pods-Celio_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Celio_Example-dummy.m"; sourceTree = "<group>"; };
-		2FC6311EDEEB7020B1E1D25962CA7119 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3BF015A6CC698B1C574C8A7689F06FD3 /* Celio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Celio.framework; path = Celio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36A9041F52BD8E410027EEB32AD80603 /* Celio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Celio.modulemap; sourceTree = "<group>"; };
+		373DFC6E083BCA668E5EE5CDAD59717B /* CURLSessionTaskOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CURLSessionTaskOperation.swift; path = Celio/Classes/CURLSessionTaskOperation.swift; sourceTree = "<group>"; };
+		3A17CBF21F2B3281FC60C85764235253 /* CNetworkOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CNetworkOperation.swift; path = Celio/Classes/CNetworkOperation.swift; sourceTree = "<group>"; };
+		3BF015A6CC698B1C574C8A7689F06FD3 /* Celio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Celio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1F7DB7B56C829E334D2D6C2A241A44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E0A1F1FABF0EE480B24F3964DD81211 /* Pods-Celio_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Celio_Example.modulemap"; sourceTree = "<group>"; };
 		40732D97C82B2743F5B0CD7A09714DE7 /* Pods-Celio_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Celio_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4105B31E52A67969032A99F799E4D33D /* Celio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Celio-dummy.m"; sourceTree = "<group>"; };
 		4EF513980F722AB26E5A81FA6038C041 /* Pods-Celio_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Celio_Tests-umbrella.h"; sourceTree = "<group>"; };
+		52A139C3335DC3D9EA886D1137F3F0B4 /* Celio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Celio.xcconfig; sourceTree = "<group>"; };
 		5613458543AB431E5CB188EC5F6A24A5 /* Pods-Celio_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Celio_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		598F7FFE454653A8E6BB5C005ADCE412 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6059008A3403147C274746073F4BE5DA /* Celio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Celio-prefix.pch"; sourceTree = "<group>"; };
+		5BE1597BC359BD715ED170021B8EE954 /* Operation+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Operation+.swift"; path = "Celio/Classes/Operation+.swift"; sourceTree = "<group>"; };
+		6409A69B4DB385686F520D3B10F0059B /* Celio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Celio-umbrella.h"; sourceTree = "<group>"; };
+		65B83CAB8575DF1ACEAA87598B5D9AB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6A93E8E9EF443310FD6E8EDA0BE4C6EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73D6E51F0404605609D863EDA0CC35D6 /* COperationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = COperationError.swift; path = Celio/Classes/COperationError.swift; sourceTree = "<group>"; };
+		7B92793E4A4C6D1A3CA95A7C526DBEA9 /* Celio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Celio-prefix.pch"; sourceTree = "<group>"; };
 		7DC4435E53CD6D374B80C16F79733A65 /* Pods-Celio_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Celio_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8286E277A6CDC36A339D44AA521F988A /* Pods-Celio_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Celio_Example-umbrella.h"; sourceTree = "<group>"; };
-		85887CA448FF31880202A03DEA357793 /* Celio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Celio.modulemap; sourceTree = "<group>"; };
+		828C0A0A2FD6ED62C6D59677FD17BCA1 /* CExclusivityController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CExclusivityController.swift; path = Celio/Classes/CExclusivityController.swift; sourceTree = "<group>"; };
 		8F72D4EB955EDAFA4F12C5C748C9F44D /* Pods-Celio_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Celio_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		906B15A8B2D934621D5F5239259923C8 /* Celio.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Celio.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		90FA7AF85E2C3BE968D15EFC51FF4760 /* Pods-Celio_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Celio_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		922F9AF87BBEC045EBBF39C082770B98 /* Pods-Celio_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Celio_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		923F0058FA0A44F5BBFD5AB307675342 /* COperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = COperation.swift; path = Celio/Classes/COperation.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9502889067623CB46E5A80D61B6819B1 /* CBlockObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBlockObserver.swift; path = Celio/Classes/CBlockObserver.swift; sourceTree = "<group>"; };
+		9EBCF16867A216515A9AA02FC5E286B5 /* CReachabilityCondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CReachabilityCondition.swift; path = Celio/Classes/CReachabilityCondition.swift; sourceTree = "<group>"; };
 		A00F85C810F68B94CBDFFB7629D42389 /* Pods-Celio_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Celio_Tests.modulemap"; sourceTree = "<group>"; };
-		B009AC9307AF89A516205C2159797B19 /* Celio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Celio-umbrella.h"; sourceTree = "<group>"; };
-		C323264B8388F739EDA1EC8F27F3D43F /* Celio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Celio.xcconfig; sourceTree = "<group>"; };
-		CBA081054674C12318E422692D15643F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D2C5C5CFC3E6351B5819C08E7D68AAFC /* Pods_Celio_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Celio_Tests.framework; path = "Pods-Celio_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05D7B7CDC9A283B0856F3AC2CF4853B /* NSError+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSError+.swift"; path = "Celio/Classes/NSError+.swift"; sourceTree = "<group>"; };
+		A16D59A772E36E0F2D373F58B73775EE /* CParseDataOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CParseDataOperation.swift; path = Celio/Classes/CParseDataOperation.swift; sourceTree = "<group>"; };
+		A1CC6D7680017122B84C639B18C2AECA /* COperationObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = COperationObserver.swift; path = Celio/Classes/COperationObserver.swift; sourceTree = "<group>"; };
+		B9F70DAFE2F8B6090CF4C9CF91E3A7E4 /* CMutuallyExclusive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMutuallyExclusive.swift; path = Celio/Classes/CMutuallyExclusive.swift; sourceTree = "<group>"; };
+		BB42B0C1AE5441A5AC542BF8CDEEB32D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BC0DCC40CD97840A21A96B17AC1D5834 /* COperationQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = COperationQueue.swift; path = Celio/Classes/COperationQueue.swift; sourceTree = "<group>"; };
+		BD0723CEB6C8C1A426B9FA73EBD8E283 /* CBackgroundObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBackgroundObserver.swift; path = Celio/Classes/CBackgroundObserver.swift; sourceTree = "<group>"; };
+		C4FA6185E871FC74D10389C7CBE248F9 /* CNetworkObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CNetworkObserver.swift; path = Celio/Classes/CNetworkObserver.swift; sourceTree = "<group>"; };
+		CBDCFD6C9283F1E83959C49D4767BCB3 /* CGroupOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGroupOperation.swift; path = Celio/Classes/CGroupOperation.swift; sourceTree = "<group>"; };
+		D2C5C5CFC3E6351B5819C08E7D68AAFC /* Pods_Celio_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Celio_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83EC81B8761C7C39857B6AAEB12B509 /* Pods-Celio_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Celio_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DC6E8F95F7741ECB2221BED6B937A61D /* Pods-Celio_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Celio_Tests-dummy.m"; sourceTree = "<group>"; };
-		E0BF7BAAFDB0BF4CE548AAFB267ACAED /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Celio/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		E13F91937E238643E0CB5B2D991F9981 /* Pods-Celio_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Celio_Example-resources.sh"; sourceTree = "<group>"; };
+		E4EBAD8F41C05E4D5F0CB11D03CCFD25 /* Celio.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Celio.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E8837E276EDBDEF88A7A917C98087C67 /* Pods-Celio_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Celio_Tests-resources.sh"; sourceTree = "<group>"; };
 		ED9A788CCC2D073161E71C58424B3A42 /* Pods-Celio_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Celio_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EF132805F72AD4EC0176E20594F9F7DC /* Pods_Celio_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Celio_Example.framework; path = "Pods-Celio_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1C65993F0A47B98EE60CB9F3FCC9E3 /* COperationCondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = COperationCondition.swift; path = Celio/Classes/COperationCondition.swift; sourceTree = "<group>"; };
+		EF132805F72AD4EC0176E20594F9F7DC /* Pods_Celio_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Celio_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27A627B1C50F61D3B7A75266D9DF0DA /* CNetworkRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CNetworkRouter.swift; path = Celio/Classes/CNetworkRouter.swift; sourceTree = "<group>"; };
 		FF84AB1377BD3026292009E61B59B43B /* Pods-Celio_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Celio_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		44F2D126AE6365CD4261871154A3067F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCB227E102D3DF7FD60516596C5F37C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		53D56D4A7465C80C261D0C088FCFBD57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,14 +134,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F342FABBED48C0118D8BDD24B139AB66 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A6289B88F94D274F253F6C3E5D3557B1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE8866F4F18FDAF04075582A1098016F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,12 +158,34 @@
 			path = "Target Support Files/Pods-Celio_Example";
 			sourceTree = "<group>";
 		};
-		2013B2B1E17C08093B0A9D100C113C54 /* Pod */ = {
+		2AF2BA3C6BCB3038EBE210535E09C659 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				906B15A8B2D934621D5F5239259923C8 /* Celio.podspec */,
-				2FC6311EDEEB7020B1E1D25962CA7119 /* LICENSE */,
-				CBA081054674C12318E422692D15643F /* README.md */,
+				36A9041F52BD8E410027EEB32AD80603 /* Celio.modulemap */,
+				52A139C3335DC3D9EA886D1137F3F0B4 /* Celio.xcconfig */,
+				4105B31E52A67969032A99F799E4D33D /* Celio-dummy.m */,
+				7B92793E4A4C6D1A3CA95A7C526DBEA9 /* Celio-prefix.pch */,
+				6409A69B4DB385686F520D3B10F0059B /* Celio-umbrella.h */,
+				3D1F7DB7B56C829E334D2D6C2A241A44 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Celio";
+			sourceTree = "<group>";
+		};
+		4E82D53802B2FCFCE0FE0508AF3FF309 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				754DFA8C93D42C485A29765784AAD719 /* Celio */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		55CC92C325C7CC767FB3F3A0433D58AE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E4EBAD8F41C05E4D5F0CB11D03CCFD25 /* Celio.podspec */,
+				65B83CAB8575DF1ACEAA87598B5D9AB7 /* LICENSE */,
+				BB42B0C1AE5441A5AC542BF8CDEEB32D /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -138,11 +198,41 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		754DFA8C93D42C485A29765784AAD719 /* Celio */ = {
+			isa = PBXGroup;
+			children = (
+				BD0723CEB6C8C1A426B9FA73EBD8E283 /* CBackgroundObserver.swift */,
+				9502889067623CB46E5A80D61B6819B1 /* CBlockObserver.swift */,
+				02E2D1F3CB3A3508A0C9C8EC7638EDA1 /* CBlockOperation.swift */,
+				828C0A0A2FD6ED62C6D59677FD17BCA1 /* CExclusivityController.swift */,
+				CBDCFD6C9283F1E83959C49D4767BCB3 /* CGroupOperation.swift */,
+				B9F70DAFE2F8B6090CF4C9CF91E3A7E4 /* CMutuallyExclusive.swift */,
+				C4FA6185E871FC74D10389C7CBE248F9 /* CNetworkObserver.swift */,
+				3A17CBF21F2B3281FC60C85764235253 /* CNetworkOperation.swift */,
+				F27A627B1C50F61D3B7A75266D9DF0DA /* CNetworkRouter.swift */,
+				923F0058FA0A44F5BBFD5AB307675342 /* COperation.swift */,
+				EE1C65993F0A47B98EE60CB9F3FCC9E3 /* COperationCondition.swift */,
+				73D6E51F0404605609D863EDA0CC35D6 /* COperationError.swift */,
+				A1CC6D7680017122B84C639B18C2AECA /* COperationObserver.swift */,
+				BC0DCC40CD97840A21A96B17AC1D5834 /* COperationQueue.swift */,
+				A16D59A772E36E0F2D373F58B73775EE /* CParseDataOperation.swift */,
+				9EBCF16867A216515A9AA02FC5E286B5 /* CReachabilityCondition.swift */,
+				373DFC6E083BCA668E5EE5CDAD59717B /* CURLSessionTaskOperation.swift */,
+				A05D7B7CDC9A283B0856F3AC2CF4853B /* NSError+.swift */,
+				05593546372A17D6ABFDBFE9CDA796EF /* NSLock+.swift */,
+				5BE1597BC359BD715ED170021B8EE954 /* Operation+.swift */,
+				55CC92C325C7CC767FB3F3A0433D58AE /* Pod */,
+				2AF2BA3C6BCB3038EBE210535E09C659 /* Support Files */,
+			);
+			name = Celio;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BDFE7392B523BC21972E820B20537663 /* Development Pods */,
+				4E82D53802B2FCFCE0FE0508AF3FF309 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				C1AA606D5F06D29A79039D3004FB705E /* Products */,
 				BE6256AA15222E3FA4F7F4AA68875052 /* Targets Support Files */,
@@ -155,14 +245,6 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BDFE7392B523BC21972E820B20537663 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DFC7C641409C60C5CA01735BF3DFB0C8 /* Celio */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BE6256AA15222E3FA4F7F4AA68875052 /* Targets Support Files */ = {
@@ -202,47 +284,22 @@
 			path = "Target Support Files/Pods-Celio_Tests";
 			sourceTree = "<group>";
 		};
-		DFC7C641409C60C5CA01735BF3DFB0C8 /* Celio */ = {
-			isa = PBXGroup;
-			children = (
-				E0BF7BAAFDB0BF4CE548AAFB267ACAED /* ReplaceMe.swift */,
-				2013B2B1E17C08093B0A9D100C113C54 /* Pod */,
-				FD8B510D5338D7CE3EDB1D79C22CFDD3 /* Support Files */,
-			);
-			name = Celio;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		FD8B510D5338D7CE3EDB1D79C22CFDD3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				85887CA448FF31880202A03DEA357793 /* Celio.modulemap */,
-				C323264B8388F739EDA1EC8F27F3D43F /* Celio.xcconfig */,
-				08694A9825506EB79FF2AF448B0DEBF7 /* Celio-dummy.m */,
-				6059008A3403147C274746073F4BE5DA /* Celio-prefix.pch */,
-				B009AC9307AF89A516205C2159797B19 /* Celio-umbrella.h */,
-				228A121DBA2891F17D67E8B7465BCEB9 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Celio";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		14A0D19EA6E7B443438EDA54732B3712 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910BBBAA35C88BC46E14E3432E63B0D4 /* Celio-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6F5AE24088E04A398FA29947A84BC2A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B525D7C45672A678B035EDE0FFBDDEA4 /* Pods-Celio_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3B824C07F62C8DC8B8D3FFB119BFBC2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CBE49049043236711AA63871F574FF01 /* Celio-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +314,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		227A922681CC5241963D537C340373E2 /* Celio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B25090125773C8198F1A1955615529 /* Build configuration list for PBXNativeTarget "Celio" */;
+			buildPhases = (
+				A8D802F5B7C2EAF7F86B41F041660905 /* Sources */,
+				44F2D126AE6365CD4261871154A3067F /* Frameworks */,
+				14A0D19EA6E7B443438EDA54732B3712 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Celio;
+			productName = Celio;
+			productReference = 3BF015A6CC698B1C574C8A7689F06FD3 /* Celio.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		3075065608F04F1A5DA32499A119FA74 /* Pods-Celio_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 265D1800CA9270A9BDD35E03E714E850 /* Build configuration list for PBXNativeTarget "Pods-Celio_Example" */;
@@ -273,23 +347,6 @@
 			name = "Pods-Celio_Example";
 			productName = "Pods-Celio_Example";
 			productReference = EF132805F72AD4EC0176E20594F9F7DC /* Pods_Celio_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		86928403E46C81F460AEDF7DF15E9D6D /* Celio */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8F6E07A84B7FDF350B6F100C7F557132 /* Build configuration list for PBXNativeTarget "Celio" */;
-			buildPhases = (
-				37BB5525C689BCE9893E141AAD374BF3 /* Sources */,
-				A6289B88F94D274F253F6C3E5D3557B1 /* Frameworks */,
-				D3B824C07F62C8DC8B8D3FFB119BFBC2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Celio;
-			productName = Celio;
-			productReference = 3BF015A6CC698B1C574C8A7689F06FD3 /* Celio.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F5D4AB12C6ADF5EADAEC0B59A2E2962B /* Pods-Celio_Tests */ = {
@@ -317,7 +374,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 0940;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -331,7 +388,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				86928403E46C81F460AEDF7DF15E9D6D /* Celio */,
+				227A922681CC5241963D537C340373E2 /* Celio */,
 				3075065608F04F1A5DA32499A119FA74 /* Pods-Celio_Example */,
 				F5D4AB12C6ADF5EADAEC0B59A2E2962B /* Pods-Celio_Tests */,
 			);
@@ -339,20 +396,39 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		37BB5525C689BCE9893E141AAD374BF3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0BB435EC5FE4559E479C20EE7D6BBA2 /* Celio-dummy.m in Sources */,
-				15CF041EE579554DAC77458010E7E594 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8C3004EB07CA4A0A64D1F5B6E124F5F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C9381159184DA75DEBCA5D3560AB4BA6 /* Pods-Celio_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D802F5B7C2EAF7F86B41F041660905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AE11A42B4362E4093A1790E56FE172 /* CBackgroundObserver.swift in Sources */,
+				09573B07BB905213BDC148FC9428CF49 /* CBlockObserver.swift in Sources */,
+				26B0A3986C4457768B94F430966366E9 /* CBlockOperation.swift in Sources */,
+				2767ED284B885BA7C08EA7D4E04BC447 /* Celio-dummy.m in Sources */,
+				4A4614E378F43A281287F60CD07E9DB9 /* CExclusivityController.swift in Sources */,
+				021F086C16C878408DA1E92C1536749A /* CGroupOperation.swift in Sources */,
+				7F0894F75763316709B6CE89FD536234 /* CMutuallyExclusive.swift in Sources */,
+				183E4A06C18C36DDC2766AA47E73FFA7 /* CNetworkObserver.swift in Sources */,
+				E36D9BB6AA085D54DADD260BAB68088D /* CNetworkOperation.swift in Sources */,
+				D7A94BA599BD87BA12D814FFC9D83CBA /* CNetworkRouter.swift in Sources */,
+				93479DEB9D43CBD4E7ADDF77E1C050D2 /* COperation.swift in Sources */,
+				4624F13223D611D9C2F483B4827A4E7E /* COperationCondition.swift in Sources */,
+				DEB988BA4727AC71603078D7B45AE750 /* COperationError.swift in Sources */,
+				3C47AA4ED80993C16E02F78C1E122687 /* COperationObserver.swift in Sources */,
+				A5CCD9295EE95518596A1772F0970B28 /* COperationQueue.swift in Sources */,
+				4EF67538858844193CEDC4AA3D069D9C /* CParseDataOperation.swift in Sources */,
+				C55FDCFBD30FFBC8992B40728B96FEEA /* CReachabilityCondition.swift in Sources */,
+				0210E9B9959CB71F6913BF3870AB2191 /* CURLSessionTaskOperation.swift in Sources */,
+				F94F752FDBA054F38CC2A0A11FCBA431 /* NSError+.swift in Sources */,
+				2237EE02E3C75736B74EB0BAD0F0B2C5 /* NSLock+.swift in Sources */,
+				4B83A9BC59FFAA088265DA6DD6374A58 /* Operation+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +446,7 @@
 		0E7C75106D7660AD6B6F92BE339D63DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Celio;
-			target = 86928403E46C81F460AEDF7DF15E9D6D /* Celio */;
+			target = 227A922681CC5241963D537C340373E2 /* Celio */;
 			targetProxy = BDC092B7A10CD5ACD09759D9AC031274 /* PBXContainerItemProxy */;
 		};
 		4B6CE00439354CAA21337558A3726850 /* PBXTargetDependency */ = {
@@ -382,9 +458,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0454A64AA2782583D9B5D0068434395D /* Debug */ = {
+		5097CE0FFCDD4BCAFFEDCCC2DB2C5EEE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C323264B8388F739EDA1EC8F27F3D43F /* Celio.xcconfig */;
+			baseConfigurationReference = 52A139C3335DC3D9EA886D1137F3F0B4 /* Celio.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -406,13 +482,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		68A49B145291863DD4020F7D3E36AE01 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -442,39 +519,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8A95F3FD71A4997E2FB48AE10D971BD4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C323264B8388F739EDA1EC8F27F3D43F /* Celio.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Celio/Celio-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Celio/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Celio/Celio.modulemap";
-				PRODUCT_MODULE_NAME = Celio;
-				PRODUCT_NAME = Celio;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -545,6 +589,38 @@
 			};
 			name = Debug;
 		};
+		9B8D856F6ECF15C20A52B9D6E853F00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52A139C3335DC3D9EA886D1137F3F0B4 /* Celio.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Celio/Celio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Celio/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Celio/Celio.modulemap";
+				PRODUCT_MODULE_NAME = Celio;
+				PRODUCT_NAME = Celio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -599,6 +675,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -735,11 +812,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F6E07A84B7FDF350B6F100C7F557132 /* Build configuration list for PBXNativeTarget "Celio" */ = {
+		52B25090125773C8198F1A1955615529 /* Build configuration list for PBXNativeTarget "Celio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0454A64AA2782583D9B5D0068434395D /* Debug */,
-				8A95F3FD71A4997E2FB48AE10D971BD4 /* Release */,
+				9B8D856F6ECF15C20A52B9D6E853F00A /* Debug */,
+				5097CE0FFCDD4BCAFFEDCCC2DB2C5EEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

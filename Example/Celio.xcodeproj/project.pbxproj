@@ -15,6 +15,12 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		AD1E3E2D211AC5130060E2DE /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E3E2C211AC5120060E2DE /* APIRouter.swift */; };
+		AD1E3E34211AC7C60060E2DE /* ResponseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E3E2F211AC7C60060E2DE /* ResponseDataModel.swift */; };
+		AD1E3E35211AC7C60060E2DE /* JPBirthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E3E31211AC7C60060E2DE /* JPBirthday.swift */; };
+		AD1E3E36211AC7C60060E2DE /* JPCreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E3E32211AC7C60060E2DE /* JPCreditCard.swift */; };
+		AD1E3E37211AC7C60060E2DE /* JPSampleResponseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E3E33211AC7C60060E2DE /* JPSampleResponseDataModel.swift */; };
+		AD1E3E39211AC9ED0060E2DE /* FetchUserDataOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E3E38211AC9EC0060E2DE /* FetchUserDataOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +36,7 @@
 /* Begin PBXFileReference section */
 		2F48E184208A547EAFBE65E7 /* Pods_Celio_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Celio_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		454C0803D099C3DF054D0E51 /* Pods-Celio_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Celio_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Celio_Example/Pods-Celio_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4781631436D23344C03C21E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4781631436D23344C03C21E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		578096A8B8B66D06103B423C /* Pods-Celio_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Celio_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Celio_Tests/Pods-Celio_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5C22928B7A32887647BD6C94 /* Pods_Celio_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Celio_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* Celio_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Celio_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,10 +49,16 @@
 		607FACE51AFB9204008FA782 /* Celio_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Celio_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		813504268A9359C0CBFBAA5B /* Celio.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Celio.podspec; path = ../Celio.podspec; sourceTree = "<group>"; };
+		813504268A9359C0CBFBAA5B /* Celio.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Celio.podspec; path = ../Celio.podspec; sourceTree = "<group>"; };
 		9EB6714B360F3A7B35851632 /* Pods-Celio_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Celio_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Celio_Tests/Pods-Celio_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC3E551FB24E7F31BB46555D /* Pods-Celio_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Celio_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Celio_Example/Pods-Celio_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EC43CFF8905F7A5A7B75BB06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AD1E3E2C211AC5120060E2DE /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		AD1E3E2F211AC7C60060E2DE /* ResponseDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseDataModel.swift; sourceTree = "<group>"; };
+		AD1E3E31211AC7C60060E2DE /* JPBirthday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPBirthday.swift; sourceTree = "<group>"; };
+		AD1E3E32211AC7C60060E2DE /* JPCreditCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPCreditCard.swift; sourceTree = "<group>"; };
+		AD1E3E33211AC7C60060E2DE /* JPSampleResponseDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPSampleResponseDataModel.swift; sourceTree = "<group>"; };
+		AD1E3E38211AC9EC0060E2DE /* FetchUserDataOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchUserDataOperation.swift; sourceTree = "<group>"; };
+		EC43CFF8905F7A5A7B75BB06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +105,9 @@
 		607FACD21AFB9204008FA782 /* Example for Celio */ = {
 			isa = PBXGroup;
 			children = (
+				AD1E3E38211AC9EC0060E2DE /* FetchUserDataOperation.swift */,
+				AD1E3E2E211AC7C60060E2DE /* ResponseDataModel */,
+				AD1E3E2C211AC5120060E2DE /* APIRouter.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -137,6 +152,25 @@
 				EC43CFF8905F7A5A7B75BB06 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		AD1E3E2E211AC7C60060E2DE /* ResponseDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD1E3E2F211AC7C60060E2DE /* ResponseDataModel.swift */,
+				AD1E3E30211AC7C60060E2DE /* SampleDataModel */,
+			);
+			path = ResponseDataModel;
+			sourceTree = "<group>";
+		};
+		AD1E3E30211AC7C60060E2DE /* SampleDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD1E3E31211AC7C60060E2DE /* JPBirthday.swift */,
+				AD1E3E32211AC7C60060E2DE /* JPCreditCard.swift */,
+				AD1E3E33211AC7C60060E2DE /* JPSampleResponseDataModel.swift */,
+			);
+			path = SampleDataModel;
 			sourceTree = "<group>";
 		};
 		BA707DD37415559E87636BFC /* Frameworks */ = {
@@ -322,7 +356,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD1E3E36211AC7C60060E2DE /* JPCreditCard.swift in Sources */,
+				AD1E3E34211AC7C60060E2DE /* ResponseDataModel.swift in Sources */,
+				AD1E3E37211AC7C60060E2DE /* JPSampleResponseDataModel.swift in Sources */,
+				AD1E3E39211AC9ED0060E2DE /* FetchUserDataOperation.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				AD1E3E35211AC7C60060E2DE /* JPBirthday.swift in Sources */,
+				AD1E3E2D211AC5130060E2DE /* APIRouter.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
