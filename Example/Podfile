@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Celio_Example' do
+  pod 'Celio', :path => '../'
+
+  target 'Celio_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
