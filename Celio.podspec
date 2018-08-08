@@ -9,8 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'Celio'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Celio.'
-
+  s.summary          = 'A framework for advanced Operations usage https://developer.apple.com/videos/wwdc/2015/?id=226'
+  s.swift_version = '4.1'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -18,7 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  
+  Celio is a framework that leverages the power of Operation and OperationQueue. It enables you to use operations more easily in all parts of your project.
+  This is an adaptation of the sample code provided in the Advanced NSOperations session of WWDC 2015.
                        DESC
 
   s.homepage         = 'https://github.com/j3patel/Celio'

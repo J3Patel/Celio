@@ -1,0 +1,22 @@
+{
+  "name": "Celio",
+  "version": "0.1.0",
+  "summary": "A short description of Celio.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/j3patel/Celio",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "j3patel": "jatinpatel101@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/j3patel/Celio.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Celio/Classes/**/*"
+}

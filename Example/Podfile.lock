@@ -1,0 +1,16 @@
+PODS:
+  - Celio (0.1.0)
+
+DEPENDENCIES:
+  - Celio (from `../`)
+
+EXTERNAL SOURCES:
+  Celio:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Celio: 6a926c3d8d59018e88c9a575c7c2ec110bc08780
+
+PODFILE CHECKSUM: 69185e75a84e746ea5fe1423a58141d561fcd666
+
+COCOAPODS: 1.5.3

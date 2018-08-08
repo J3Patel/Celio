@@ -1,0 +1,6 @@
+framework module Pods_Celio_Tests {
+  umbrella header "Pods-Celio_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
